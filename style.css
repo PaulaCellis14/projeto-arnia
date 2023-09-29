@@ -1,0 +1,268 @@
+body{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #F5F4F9;
+    font-family: 'Nunito', sans-serif;
+}
+
+.main-loginContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-heart{
+    width: 740px;
+    height: 100vh;
+    margin-left: 70px;
+}
+
+.login-conteiner{
+    background-color: #FFF;
+    width: 619px;
+    height: 715px;
+    border-radius: 15px 0px 0px 20px;
+    box-shadow: 0 7px 30px 0 #BBC0CD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-block{
+    width: 300px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    color: #808080;
+}
+
+.logo-heart{
+    width: 70px;
+}
+
+.loginForm-block{
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.login-form{
+    position: relative;
+}
+
+.login-form label{
+    position: absolute;
+    bottom: 34px;
+    left: 10px;
+    background-color: #fff;
+    padding: 0 5px;
+    color: #757575;
+}
+
+.login-input{
+    border: 1px solid #BDBDBD;
+    border-right: none;
+    border-radius: 10px;
+    width: 283px;
+    height: 40px;
+    padding-left: 15px;
+    color: #BDBDBD;
+}
+
+input{
+    border: none;
+}
+
+.checkbox{
+    font-weight: bold;
+}
+
+.password-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.password-link{
+    color: #2C4D9C;
+}
+
+a{
+    text-decoration: none;
+}
+
+.login{
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #E0E0E0;
+}
+
+.register{
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #00C247;
+}
+
+.login-hr{
+    width: 200px;
+}
+
+.paragraph{
+    position: relative;
+}
+
+.paragraph-text{
+    position: absolute;
+    bottom: -18px;
+    left: 100px;
+    background-color: #fff;
+    padding: 0 15px;
+}
+
+.link{
+    color: #fff;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+    background-color: #fff;
+}
+
+.header-user{
+    width: 153px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-1{
+    background-color: #F9E423;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.header-hr{
+    display: flex;
+}
+
+hr{
+    margin: 0;
+    background-color: #fff;
+    height: 4px;
+    width: 307px;
+    border: none;
+}
+
+.header-hr hr:first-child{
+    background-color: #AA6F34;
+}
+
+.header-hr hr:nth-child(2){
+    background-color: #D2772E;
+}
+
+.header-hr hr:nth-child(3){
+    background-color: #F48221;
+}
+
+.header-hr hr:nth-child(4){
+    background-color: #FAA61A;
+}
+
+.header-hr hr:last-child{
+    background-color: #F9E423;
+}
+
+.outset-container{
+    display: flex;
+}
+
+.menu-container{
+    background-color: #F9E423;
+    width: 230px;
+    height: 546px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-menu, .bottom-menu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.menu-style, .user-menu{
+    width: 210px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.user-menu{
+    position: relative;
+}
+
+.arrow{
+    position: absolute;
+    left: 200px;
+    top: 6px;
+}
+
+.content{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 650px;
+}
+
+.hello{
+    font-weight: bolder;
+    font-size: 24px;
+    color: #AA6F34;
+}
+
+.group{
+    font-weight: bolder;
+    font-size: 36px;
+    color: #757575;
+}
+
+.comments{
+    background-color: #F9E423;
+    width: 60px;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.contact-block{
+    position: absolute;
+    left: 1271px;
+    top: 560px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.contact{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 5px 0 #686868;
+}
